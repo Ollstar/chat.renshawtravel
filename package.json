@@ -1,5 +1,5 @@
 {
-  "name": "domainai",
+  "name": "renshawai",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ollstar/domainai.git"
+    "url": "git+https://github.com/Ollstar/chat.renshawtravel.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ollstar/domainai/issues"
+    "url": "https://github.com/Ollstar/chat.renshawtravel/issues"
   },
-  "homepage": "https://github.com/Ollstar/domainai#readme"
+  "homepage": "https://github.com/Ollstar/chat.renshawtravel#readme"
 }
