@@ -1,0 +1,111 @@
+{
+    "grouping": [
+        {
+            "group": "Ordering",
+            "entries": [
+                {
+                    "entryPoint": "in-store ordering",
+                    "questions": [
+                        "What menu items are available for in-store ordering?",
+                        "Is there a wait time for ordering at the counter?",
+                        "Can I place a custom order?",
+                        "Are there any special deals or promotions available?"
+                    ]
+                },
+                {
+                    "entryPoint": "drive-thru ordering",
+                    "questions": [
+                        "What menu items are available for drive-thru ordering?",
+                        "Is there a wait time for drive-thru ordering?",
+                        "Can I place a custom order through the drive-thru?",
+                        "Are there any special deals or promotions available for drive-thru orders?"
+                    ]
+                },
+                {
+                    "entryPoint": "online ordering through website",
+                    "questions": [
+                        "What menu items are available for online ordering?",
+                        "Can I place a custom order through the website?",
+                        "How long does delivery usually take?",
+                        "Are there any special deals or promotions available for online orders?"
+                    ]
+                },
+                {
+                    "entryPoint": "mobile app ordering",
+                    "questions": [
+                        "What menu items are available for ordering through the mobile app?",
+                        "Can I place a custom order through the mobile app?",
+                        "How long does delivery usually take?",
+                        "Are there any special deals or promotions available for mobile app orders?"
+                    ]
+                }
+            ]
+        },
+        {
+            "group": "Delivery",
+            "entries": [
+                {
+                    "entryPoint": "delivery through third-party services",
+                    "questions": [
+                        "What third-party delivery services are available?",
+                        "What menu items are available for delivery?",
+                        "How long does delivery usually take?",
+                        "Are there any fees for delivery?"
+                    ]
+                },
+                {
+                    "entryPoint": "catering services",
+                    "questions": [
+                        "What catering services are available?",
+                        "What menu items are available for catering?",
+                        "Can I place a custom catering order?",
+                        "What is the minimum order size for catering?"
+                    ]
+                }
+            ]
+        },
+        {
+            "group": "Dining",
+            "entries": [
+                {
+                    "entryPoint": "in-store dining",
+                    "questions": [
+                        "What menu items are available for in-store dining?",
+                        "Is there a wait time for seating?",
+                        "Do you have outdoor seating available?",
+                        "Do you offer table service?",
+                        "Do you offer a kid's menu?"
+                    ]
+                },
+                {
+                    "entryPoint": "outdoor dining",
+                    "questions": [
+                        "What menu items are available for outdoor dining?",
+                        "Is there a wait time for outdoor seating?",
+                        "Do you have heaters or umbrellas for outdoor seating?",
+                        "Do you offer table service for outdoor dining?",
+                        "Do you offer a kid's menu for outdoor dining?"
+                    ]
+                },
+                {
+                    "entryPoint": "takeout",
+                    "questions": [
+                        "What menu items are available for takeout?",
+                        "Is there a wait time for takeout orders?",
+                        "Can I place a custom takeout order?",
+                        "Do you offer any discounts or promotions for takeout orders?"
+                    ]
+                },
+                {
+                    "entryPoint": "curbside pickup",
+                    "questions": [
+                        "What menu items are available for curbside pickup?",
+                        "Is there a wait time for curbside pickup?",
+                        "Can I place a custom curbside pickup order?",
+                        "Do you offer any discounts or promotions for curbside pickup orders?"
+                    ]
+                }
+            ]
+        }
+    ]
+}
