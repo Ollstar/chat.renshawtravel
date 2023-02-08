@@ -195,7 +195,7 @@ width: 200,
           <div className={styles.messageContainer}>
             <Message
               author="DomainAI"
-              text="Thanks for jumping on to the RenshawTravelAI loyalty chat 🙏.  We are here to help and serve… And we appreciate your feedback.😃 What can we do for you?"
+              text="Thanks for jumping on to the RenshawTravelAI chat 🙏.  We are here to help and tell you about all the great places to visit. And we appreciate your feedback.😃 What can we do for you?"
               timestamp={<NoSsr>{timestamp}</NoSsr>}>
             </Message>
           </div>
