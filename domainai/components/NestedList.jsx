@@ -244,7 +244,7 @@ export default function NestedList({ onSubmit, setMessageInput, handleDrawerClos
           <ListItemIcon>
             <PsychologyIcon />
           </ListItemIcon>
-          <ListItemText primaryTypographyProps={{ fontFamily: "poppins" }} primary="Training Message" />
+          <ListItemText primaryTypographyProps={{ fontFamily: "poppins" }} primary="Train" />
         </ListItemButton>
 
       </List>
