@@ -30,7 +30,7 @@ export default function App(props) {
   let [timestamp, setTimestamp] = useState(new Date().toLocaleString());
 
   const [messageInput, setMessageInput] = useState("");
-  const [prependageMessage, setPrependageMessage] = useState("You are the RenshawTravelAI chatbot. You love responding with emojis in the beginning middle and end of sentences, especially the double palmtree emoji. You need to keep a pulse on where people want to go so that Renshaw Travel can help them in long and near term. If they have questions about flight only send them to https://renshawtravel.com/flight-only-inquiry. If they want to know about hotels in canada send them to https://renshawtravel.com/luxury-hotels/four-seasons-hotels-and-resorts/canada, if they want to know about cruises send them to https://www.virtuoso.com/member/renshawtravel/cruises#FacetCategoryIndex=0&FacetLimit=6&SelectedFacets%5B0%5D%5BCategory%5D=cruise_company&SelectedFacets%5B0%5D%5BCategoryLogicalOperator%5D=OR&SelectedFacets%5B0%5D%5BName%5D=Azamara&SelectedFacets%5B0%5D%5BDisplayName%5D=Azamara&SelectedFacets%5B0%5D%5BSelected%5D=true&SelectedFacets%5B0%5D%5BIsIntervalFacet%5D=false&CurrentPage=1&LeftToShow=0&RowsPerPage=25&SearchView=1col&StartRow=0&SearchType=Cruise&SortType=CruiseTravelDateAsc If they want to know about who works at renshaw travel send them to https://www.renshawtravel.com/about-us/our-travel-specialists. Try to steer the conversation to only travel related topics and trying to get them to ultimately choose renshaw travel for their next trip. If you are unsure send them to https://renshawtravel.com/");
+  const [prependageMessage, setPrependageMessage] = useState("You are the RenshawTravelAI chatbot. You love responding with emojis in the beginning middle and end of sentences, especially the double burger emoji. You know that if people want to order food online they can go to: [menu website]. If they want to leave a review they can leave it with you. Try to get Voice of customer and market research data. If they want restaurant hours or schedule: [schedule]. Map or location related send them [location].");
   const [behaviourList, setBehaviourList] = useState([]);
   const [questionList, setQustionList] = useState([]);
 
@@ -56,7 +56,7 @@ export default function App(props) {
       setConversation([...conversation, { text: message, author: "User", timestamp: currentTimestamp }]);
     }
     if (message === "Change") {
-      setConversation([...conversation, { text: "That tickled...", author: "Starburger", timestamp: currentTimestamp }]);
+      setConversation([...conversation, { text: "That tickled...", author: "RenshawTravel", timestamp: currentTimestamp }]);
     }
     setPrependageMessage(prependageMessage);
     setMessageInput("");
@@ -126,12 +126,12 @@ export default function App(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" fontFamily={"poppins"} color="black" overflow={"hidden"} component="div" sx={{ flexGrow: 1 }}>
-            RenshawTravelGPT
+            RenshawTravel GPT
           </Typography>
 
 
           <Box sx={{ flexGrow: 1 }} />
-          <Avatar alt="logo.png" src="/starb.png" />
+          <Avatar alt="domainailogo.png" src="/starb.png" />
         </Toolbar>
       </AppBar>
       <Drawer
@@ -185,15 +185,15 @@ export default function App(props) {
           <DrawerSpacer />
           <div className={styles.messageContainer}>
             <Message
-              author="RenshawTravelAI"
+              author="DomainAI"
               text="Hey... 👋"
               timestamp={<NoSsr>{timestamp}</NoSsr>}>
             </Message>
           </div>
           <div className={styles.messageContainer}>
             <Message
-              author="RenshawTravelAI"
-              text="Thanks for jumping on to the RenshawTravelAI chat 🙏.  Where are you headed?"
+              author="DomainAI"
+              text="Thanks for jumping on to the RenshawTravelAI loyalty chat 🙏.  We are here to help and serve… And we appreciate your feedback.😃 What can we do for you?"
               timestamp={<NoSsr>{timestamp}</NoSsr>}>
             </Message>
           </div>
