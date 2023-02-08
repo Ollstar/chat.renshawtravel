@@ -125,13 +125,15 @@ export default function App(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" fontFamily={"poppins"} color="black" overflow={"hidden"} component="div" sx={{ flexGrow: 1 }}>
-            RenshawTravel GPT
-          </Typography>
 
-
-          <Box sx={{ flexGrow: 1 }} />
-          <Avatar alt="domainailogo.png" src="/starb.png" />
+          <Box
+          component="img"
+          sx={{
+width: 200,
+          }}
+          alt="The rt logo."
+          src="/rt.png"
+        />
         </Toolbar>
       </AppBar>
       <Drawer
