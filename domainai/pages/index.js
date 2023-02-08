@@ -60,6 +60,8 @@ export default function App(props) {
     }
     setPrependageMessage(prependageMessage);
     setMessageInput("");
+    let forjsonmessage = message;
+    let forjsonpmessage = pMessage;
     try {
       setIsLoading(true);
       const response = await fetch("/api/generate", {
@@ -67,7 +69,7 @@ export default function App(props) {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ message, pMessage }),
+        body: JSON.stringify({ forjsonmessage, forjsonpmessage }),
       });
       if (message === "") {
         setIsLoading(false);
