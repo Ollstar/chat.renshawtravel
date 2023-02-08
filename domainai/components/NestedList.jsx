@@ -130,6 +130,7 @@ export default function NestedList({ onSubmit, setMessageInput, handleDrawerClos
       }, 100);    }
     setModalOpen(false);
 
+    
   };
 
   const handleBrainClick = (message) => {
